@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3부처 보도자료 검색</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>5.25 호우 대응 3부처 보도자료 검색</h1>
+    <p class="sub">행정안전부 · 기상청 · 경찰청이 2026년 5월 25일 오후 발표한 보도자료</p>
+    <div class="search">
+      <label for="q" class="sr-only">검색어</label>
+      <input id="q" type="search" placeholder="검색어 (예: 호우, 기상청, 인명피해)" autocomplete="off">
+      <span id="count" aria-live="polite"></span>
+    </div>
+  </header>
+  <main id="list"></main>
+  <footer>교육·실습용 가상 보도자료를 바탕으로 만든 예시 페이지이며, 실제 정부 발표가 아닙니다.</footer>
+  <script src="데이터.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
